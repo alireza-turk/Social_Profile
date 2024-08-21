@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Inter-400';
+    src: url('../assets/fonts/inter-regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter-600';
+    src: url('../assets/fonts/inter-bold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Inter-700';
+    src: url('../assets/fonts/inter-semibold.ttf');
+    font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body p{
+    font-size: 14px;
+}
